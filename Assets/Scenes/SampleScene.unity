@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 155322031}
   - component: {fileID: 155322030}
   - component: {fileID: 155322029}
+  - component: {fileID: 155322032}
   m_Layer: 0
   m_Name: Wall Piece
   m_TagString: Untagged
@@ -220,6 +221,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155322027}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &155322032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155322027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761ac6cb331cd504a803581fc2dd76af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &193459499
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +343,7 @@ GameObject:
   - component: {fileID: 307982677}
   - component: {fileID: 307982676}
   - component: {fileID: 307982675}
+  - component: {fileID: 307982678}
   m_Layer: 0
   m_Name: Wall Piece (2)
   m_TagString: Untagged
@@ -345,8 +359,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307982673}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.70710677}
-  m_LocalPosition: {x: 5.045787, y: 0.78399026, z: 9.462768}
-  m_LocalScale: {x: 20, y: 1, z: 1}
+  m_LocalPosition: {x: 5.045787, y: 0.78399026, z: 9.4628}
+  m_LocalScale: {x: 22, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1576834166}
@@ -415,6 +429,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307982673}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &307982678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307982673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761ac6cb331cd504a803581fc2dd76af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +547,7 @@ GameObject:
   - component: {fileID: 807695338}
   - component: {fileID: 807695337}
   - component: {fileID: 807695336}
+  - component: {fileID: 807695339}
   m_Layer: 0
   m_Name: Wall Piece (1)
   m_TagString: Untagged
@@ -606,6 +633,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807695334}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &807695339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807695334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761ac6cb331cd504a803581fc2dd76af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +776,7 @@ GameObject:
   - component: {fileID: 1211788620}
   - component: {fileID: 1211788619}
   - component: {fileID: 1211788618}
+  - component: {fileID: 1211788621}
   m_Layer: 0
   m_Name: Wall Piece (3)
   m_TagString: Untagged
@@ -752,8 +792,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211788616}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.70710677}
-  m_LocalPosition: {x: -15.954213, y: 0.78399026, z: 9.462768}
-  m_LocalScale: {x: 20, y: 1, z: 1}
+  m_LocalPosition: {x: -15.954213, y: 0.78399026, z: 9.4628}
+  m_LocalScale: {x: 22, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1576834166}
@@ -822,6 +862,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211788616}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1211788621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211788616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761ac6cb331cd504a803581fc2dd76af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1373084987
 GameObject:
   m_ObjectHideFlags: 3
